@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Side by Side Images</title>
+<style>
+  .container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  .image-block {
+    text-align: center;
+  }
+  img {
+    max-width: 300px;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  .label {
+    margin-top: 8px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="image-block">
+      <img src="ORIGINAL_IMAGE_URL_HERE" alt="Original" />
+      <div class="label">Original</div>
+    </div>
+    <div class="image-block">
+      <img src="VOIDARA_IMAGE_URL_HERE" alt="Voidara Image" />
+      <div class="label">Voidara Image</div>
+    </div>
+  </div>
+</body>
+</html>
